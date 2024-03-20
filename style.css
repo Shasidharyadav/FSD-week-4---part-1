@@ -1,0 +1,75 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+   background-image: url(https://t4.ftcdn.net/jpg/04/04/40/49/360_F_404404954_WGYZtTwswIrXnJl6qVeEFK5UWPFflVB8.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    
+}
+
+.data {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #dddad6;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bcbc08;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #f4f4f4;
+    text-decoration:double
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.231);
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Employee Management System</h1>
+<div class="data"> 
+<label for="employeeName">Name:</label>
+<input type="text" id="employeeName"><br><br>
+
+<label for="employeeAge">Age:</label>
+<input type="number" id="employeeAge"><br><br>
+
+<label for="employeeDepartment">Department:</label>
+<input type="text" id="employeeDepartment"><br><br>
+
+<label for="employeeSalary">Salary:</label>
+<input type="number" id="employeeSalary"><br><br>
+
+<button onclick="addEmployee()">Add Employee</button><br><br>
+
+<button onclick="calculateAverageSalary()">Calculate Average Salary</button><br><br>
+
+<label for="departmentInput">Enter Department:</label>
+<input type="text" id="departmentInput">
+<button onclick="findEmployeesByDepartment()">Find Employees in Department</button><br><br>
+
+<label for="percentageInput">Enter Percentage Increase:</label>
+<input type="number" id="percentageInput">
+<button onclick="increaseSalary()">Increase Salary for Employees</button><br><br>
+
+<button onclick="sortEmployeesByAge()">Sort Employees by Age</button><br><br>
+
+<ul id="employeeList"></ul>
+</div>
+
+<div class="footer"><a href="#" id="myGithubLink"> By Shasidhar</a></div>
+
+<script src="script.js"></script>
+</body>
+</html>
